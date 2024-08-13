@@ -1014,7 +1014,13 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  &.linkedin {
+    color: #0077B5;
+  }
+  &.Whatsapp {
+    color: #18d26e;
+  }
+  
 }
 
 .contact .php-email-form {
